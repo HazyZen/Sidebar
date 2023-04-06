@@ -6,23 +6,86 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Sidebar</title>
         <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+        <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
     </head>
     <body>
-        <h1>Sidebar</h1>
+        <nav>
+            <div class="logo">
+                <i class="bx bx-menu menu-icon"></i>
+                <span class="logo-name">HazyZen</span>
+            </div>
 
-        <div id="mybutton">
-            <button class="button-toggle">
-                <i class="fas fa-bars"></i>
-            </button>
-        </div>
+            <div class="sidebar">
+                <div class="logo">
+                    <i class="bx bx-menu menu-icon"></i>
+                    <span class="logo-name">HazyZen</span>
+                </div>
 
-        <div id="sidebar">
-            <a href="#"><i class="fa fa-house"></i> Home</a>
-            <a href="#"><i class="fa fa-users"></i> About</a>
-            <a href="#"><i class="fa-solid fa-gear"></i> Services</a>
-            <a href="#"><i class="fa fa-phone"></i> Contact</a>
-        </div>
+                <div class="sidebar-content">
+                    <ul class="lists">
+                        <li class="list">
+                            <a href="#" class="nav-link">
+                                <i class="bx bx-home-alt icon"></i>
+                                <span class="link">Dashboard</span>
+                            </a>
+                        </li>
+                        <li class="list">
+                            <a href="#" class="nav-link">
+                                <i class="bx bx-bar-chart-alt-2 icon"></i>
+                                <span class="link">Revenue</span>
+                            </a>
+                        </li>
+                        <li class="list">
+                            <a href="#" class="nav-link">
+                                <i class="bx bx-bell icon"></i>
+                                <span class="link">Notifications</span>
+                            </a>
+                        </li>
+                        <li class="list">
+                            <a href="#" class="nav-link">
+                                <i class="bx bx-message-rounded icon"></i>
+                                <span class="link">Messages</span>
+                            </a>
+                        </li>
+                        <li class="list">
+                            <a href="#" class="nav-link">
+                                <i class="bx bx-pie-chart-alt-2 icon"></i>
+                                <span class="link">Analytics</span>
+                            </a>
+                        </li>
+                        <li class="list">
+                            <a href="#" class="nav-link">
+                                <i class="bx bx-heart icon" ></i>
+                                <span class="link">Likes</span>
+                            </a>
+                        </li>
+                        <li class="list">
+                            <a href="#" class="nav-link">
+                                <i class="bx bx-folder-open icon" ></i>
+                                <span class="link">Files</span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="bottom-content">
+                        <li class="list">
+                            <a href="#" class="nav-link">
+                                <i class="bx bx-cog icon"></i>
+                                <span class="link">Settings</span>
+                            </a>
+                        </li>
+                        <li class="list">
+                            <a href="#" class="nav-link">
+                                <i class="bx bx-log-out icon"></i>
+                                <span class="link">Logout</span>
+                            </a>
+                        </li>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <section class="overlay"></section>
 
         <script src="main.js"></script>     
     </body>
